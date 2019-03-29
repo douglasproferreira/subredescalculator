@@ -1,0 +1,23 @@
+{
+  "name": "subredescalculator",
+  "version": "1.0.0",
+  "description": "Aplicação que realiza cálculo de subredes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasproferreira/subredescalculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasproferreira/subredescalculator/issues"
+  },
+  "homepage": "https://github.com/douglasproferreira/subredescalculator#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
