@@ -1,0 +1,105 @@
+.navbar {
+    background: rgba(0, 0, 0, 0.103);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    height: 55px;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container {
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+#form {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    width: 50%;
+    height: calc(100vh - 110px);
+    background: rgba(0, 6, 56, 0.733);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: justify;
+    box-sizing: border-box;
+    padding: 100px;
+}
+
+.form-control {
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+.form-control:focus {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    margin-left: 15%;
+    width: 50%;
+    text-align: center;
+}
+
+.form-text,
+.color {
+    color: #fff;
+}
+
+.result {
+    margin: 50px 0 50px 50%;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.tablesubred,
+.ipSubred,
+.mascara,
+.subredes,
+.host {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    padding: 0 20px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    align-items: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tablesubred p, .subredes p, .mascara p, .host p, .ipSubred p{
+    flex-grow: 1;
+    text-align: center;
+}
+
+footer {
+    background: rgba(0, 2, 2, 0.829);
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    bottom: 0;
+    margin: 0;
+    padding-top: 15px;
+}

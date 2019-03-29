@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sub-redes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#">Subredes</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="home.html">Calcular<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="host.html">Hosts</a>
+                        <a class="nav-item nav-link active" href="descobrir.html">Descobrir Subredes</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <form id="form">
+            <div class="form-group">
+                <label for="exampleInputEmail1" class="color">Endereço IP</label>
+                <input type="text" class="form-control ip" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="IP...">
+                <small id="ipHelp" class="form-text text-muted">Digite um endereço de Ip válido.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1" class="color">Máscara</label>
+                <input type="text" class="form-control masc" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Máscara...">
+                <small id="ipHelp" class="form-text text-muted">Digite a máscara do IP acima.</small>
+            </div>
+            <button type="submit" class="btn btn-primary form-control">Descobrir</button>
+        </form>
+
+        <section class="result">
+            <div class="ipSubred">
+                
+            </div>
+            <div class="mascara">
+
+            </div>
+            <div class="subredes">
+
+            </div>
+            <div class="host">
+
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; Subredes Calculator Inc.</p>
+    </footer>
+    <script src="js/scriptD.js"></script>
+</body>
+
+</html>
